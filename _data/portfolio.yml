@@ -1,0 +1,33 @@
+# Portfolio settings
+
+title: Hello World!
+description: Computer Science // French // Coffee(script)
+email: hastere@crimson.ua.edu
+
+
+#menu items
+
+menu:
+- {name: About, url: '#about-me'}
+- {name: Education, url: '#'}
+- {name: Experience, url: '#'}
+- {name: Contact, url: '#'}
+
+
+work:
+- {name: Under Construction, folder: 'hello'}
+- {name: In Progress, folder: 'hello'}
+- {name: Additional Content on the Way, folder: 'hello'}
+- {name: Tomay-toe Tomah-toe, folder: 'hello'}
+- {name: MorE, folder: 'hello'}
+- {name: Ess, folder: 'hello'}
+- {name: hlweiqd, folder: 'hello'}
+- {name: rgkjnedbswv, folder: 'hello'}
+
+bg-img: hero.jpg
+avatar: thumb.jpg
+
+
+sass:
+  sass_dir: assets/css
+  style: :nested

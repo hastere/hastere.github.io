@@ -3,13 +3,12 @@
     <div class="logo"> </div>
 
     <nav>
-        <a href="">about me</a>
-        <a href="">education</a>
-        <a href="">work</a>
-        <a href="">contact</a>
+        {% for item in site.data.portfolio.menu %}
+            <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
     </nav>
 
-    <h1><span>Hello World!</span></h1>
-    <p class="kicker">Computer Science // French // Coffee(script)</p>
+    <h1><span>{{ site.data.portfolio.title }}</span></h1>
+    <p class="kicker">{{ site.data.portfolio.description }}</p>
 
 </header>

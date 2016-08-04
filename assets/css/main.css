@@ -233,7 +233,7 @@ header nav a, header .kicker, footer .lockup .content-wrap a, h3 {
 
 header {
   height: 450px;
-  background: url(/assets/img/hero.jpg) center center;
+  background: url(/assets/img/{{ site.data.portfolio.bg-img }}) center center;
   background-size: cover; }
   header .logo {
     height: 50px;
@@ -272,7 +272,7 @@ header {
     line-height: 1; }
 
 footer {
-  background: url(/assets/img/hero.jpg) center center;
+  background: url(/assets/img/{{ site.data.portfolio.bg-img }}) center center;
   background-size: cover; }
   footer .lockup {
     padding: 50px 30px; }
@@ -327,19 +327,11 @@ h3 {
   -o-align-items: center;
   align-items: center;
   -ms-flex-align: center;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  box-pack: center;
-  -webkit-justify-content: space-around;
-  -moz-justify-content: space-around;
-  -ms-justify-content: space-around;
-  -o-justify-content: space-around;
-  justify-content: space-around;
-  -ms-flex-pack: center;
   height: 200px;
   width: 200px;
-  border-radius: 52%;
-  background: url(/assets/img/face.png) center center; }
+  border-radius: 50%;
+  background-image: url(/assets/img/{{ site.data.portfolio.avatar }}) center center;
+  background-size: cover; }
 
 .about-me {
   padding-top: 20px;
