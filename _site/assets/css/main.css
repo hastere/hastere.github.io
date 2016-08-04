@@ -233,8 +233,8 @@ header nav a, header .kicker, footer .lockup .content-wrap a, h3 {
 
 header {
   height: 450px;
-  background-size: cover;
-  background-position: center; }
+  background: url(/assets/img/hero.jpg) center center;
+  background-size: cover; }
   header .logo {
     height: 50px;
     width: 50px;
@@ -272,6 +272,7 @@ header {
     line-height: 1; }
 
 footer {
+  background: url(/assets/img/hero.jpg) center center;
   background-size: cover; }
   footer .lockup {
     padding: 50px 30px; }
