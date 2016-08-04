@@ -233,7 +233,8 @@ header nav a, header .kicker, footer .lockup .content-wrap a, h3 {
 
 header {
   height: 450px;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
   header .logo {
     height: 50px;
     width: 50px;
