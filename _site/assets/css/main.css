@@ -304,8 +304,9 @@ footer {
 h3 {
   color: #B590A2;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 20px; }
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px; }
 
 .face-img {
   max-width: 200px;
@@ -352,3 +353,5 @@ h3 {
 
 section {
   background: rgba(188, 171, 190, 0.5); }
+
+/*# sourceMappingURL=main.css.map */
