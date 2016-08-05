@@ -1,32 +1,45 @@
-.alt-section
+.section-work
+  overflow-x: hidden
+  padding: 20px
   background: $bg-color
+
+.work-belt
+  width: 200%
+  position: relative
+  left: 0%
+  +transition(all 800ms)
+
+
+.thumb-wrap, .work-wrap
+  width: 50%
+  float: left
+
+
 
 .thumb-container
   max-width: 960px
-  margin: 0 auto
-  padding-bottom: 100px
+  margin: 0px auto
   +clearfix
 
   .thumb-unit
     display: block
     width: 25%
-    padding-top: 20%
-    overflow: hidden
-    opacity: 40
     float: left
-
     position: relative
-
-
-    @media screen and (max-width: 650px)
-      width: 50%
-
+    padding-top: 20%
+    cursor: pointer
     background:
       position: center center
       repeat: no-repeat
       size: cover
       color: white
     +perspective(300)
+    overflow: hidden
+    @media screen and (max-width: 760px)
+      width: 50%
+      padding-top: 26%
+
+
 
 
 
@@ -36,7 +49,6 @@
       background: fade_in($bg-color, .5)
       text-align: center
       +transition
-      +transition-duration(400ms)
       +display(flex)
       +align-items(center)
       +justify-content(space-around)
@@ -59,6 +71,39 @@
       top: 0
       +transform(rotateX(0deg))
       opacity: 1
+
+.work-container
+  max-width: 600px
+  margin: 0px auto
+  position: relative
+  display: none
+
+  .work-return
+    +position(absolute, -4px null null -60px)
+    text-transform: uppercase
+    font-size: 28px
+    font-weight: 600
+    +size(40px)
+    cursor: pointer
+    background: white
+
+    &:hover
+      opacity: 0.5
+    path
+      fill: fade_in($accent-color, .5)
+
+
+    h4
+      color: $accent-color
+      font-weight: lighter
+      text-transform: uppercase
+      font-size: 28px
+      line-height: 1.2
+      margin: 0px 0px 20px
+
+    img
+      max-width: 100%
+      margin-bottom: 20px
 
 
 
