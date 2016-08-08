@@ -1,0 +1,43 @@
+form
+  max-width: 450px
+  margin: 0 auto 50px
+  padding-left: 10px
+  padding-right: 10px
+  input, textarea
+    border: 3px solid $accent-color
+    width: 100%
+    +box-sizing(border-box)
+    padding: 10px
+
+    &:focus
+      outline: none
+      border-color: fade_out($accent-color, .2)
+  textarea
+    height: 10em
+    margin-bottom: 20px
+
+  [type="submit"]
+    background: $accent-color
+    color: white
+    font-size: 18px
+    text-transform: uppercase
+    font-weight: 700
+
+    &:hover
+      background: fade_out($accent-color, .2)
+
+  .contact-info
+    text-align: left
+    label
+      width: 50%
+      float: left
+      +box-sizing(border-box)
+      padding-bottom: 20px
+
+
+      &:nth-child(1)
+        padding-right: 10px
+
+      &:nth-child(2)
+        padding-left: 10px
+

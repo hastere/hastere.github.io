@@ -10,19 +10,19 @@ email: hastere@crimson.ua.edu
 menu:
 - {name: About, url: '#about-me'}
 - {name: Education, url: '#'}
-- {name: Experience, url: '#'}
-- {name: Contact, url: '#'}
+- {name: Experience, url: '#experience'}
+- {name: Contact, url: '#contact'}
 
 
 work:
-- {name: Under Construction, folder: 'hello'}
-- {name: In Progress, folder: 'hello'}
-- {name: Additional Content on the Way, folder: 'hello'}
-- {name: Tomay-toe Tomah-toe, folder: 'hello'}
-- {name: MorE, folder: 'hello'}
+- {name: Programming, folder: 'hello'}
+- {name: Photography, folder: 'hello'}
+- {name: French, folder: 'hello'}
+- {name: College Extracurriculars, folder: 'hello'}
+- {name: a, folder: 'hello'}
 - {name: Ess, folder: 'hello'}
 - {name: hlweiqd, folder: 'hello'}
-- {name: rgkjnedbswv, folder: 'hello'}
+- {name: About The Site, folder: 'hello'}
 
 bg-img: hero.jpg
 avatar: face2.jpg

@@ -9,6 +9,9 @@
   left: 0%
   +transition(all 800ms)
 
+  &.slided
+    +transform(translate3d(-50%,0,0))
+
 
 .thumb-wrap, .work-wrap
   width: 50%
@@ -17,7 +20,8 @@
 
 
 .thumb-container
-  max-width: 960px
+  display: block
+  max-width: 780px
   margin: 0px auto
   +clearfix
 
@@ -39,10 +43,6 @@
       width: 50%
       padding-top: 26%
 
-
-
-
-
     .thumb-overlay
       +position(absolute, 50% 0px null 0px)
       height: 100%
@@ -61,7 +61,7 @@
         padding: 40px
         color: white
         font:
-          weight: 300
+          weight: 500
           size: 20px
 
 
@@ -72,20 +72,23 @@
       +transform(rotateX(0deg))
       opacity: 1
 
+
 .work-container
   max-width: 600px
   margin: 0px auto
+  padding: 0 15px
+  +box-sizing(border-box)
+
   position: relative
   display: none
 
   .work-return
     +position(absolute, -4px null null -60px)
-    text-transform: uppercase
-    font-size: 28px
-    font-weight: 600
-    +size(40px)
+    +size(25px)
     cursor: pointer
-    background: white
+    display: inline-block
+
+    stroke-width: 0
 
     &:hover
       opacity: 0.5
@@ -93,18 +96,20 @@
       fill: fade_in($accent-color, .5)
 
 
-    h4
-      color: $accent-color
-      font-weight: lighter
-      text-transform: uppercase
-      font-size: 28px
-      line-height: 1.2
-      margin: 0px 0px 20px
+  h4, noscript h4
+    color: fade_in($accent-color,.5)
+    font-weight: 300
+    text-transform: uppercase
+    font-size: 28px
+    line-height: 1.2
+    margin: 0px 0px 20px
 
-    img
-      max-width: 100%
-      margin-bottom: 20px
+  img
+    max-width: 100%
+    margin-bottom: 20px
 
+  .project-load
+    color: white
 
 
 

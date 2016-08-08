@@ -1,0 +1,42 @@
+.section-contact
+  text-align: center
+
+
+.social-links
+  max-width: 780px
+  margin: 0px auto 50px
+  +display(flex)
+  +justify-content(space-around)
+  +flex-wrap(wrap)
+  a
+    display: block
+    background: $accent-color
+    +size(50px)
+    line-height: 50px
+    margin: 20px
+    color: white
+    border-radius: 50%
+    font-size: 28px
+    +transition()
+
+    &:hover
+      +transform(scale(1.2))
+.bar
+  max-width: 780px
+  height: 0px
+  border-top: 4px solid $accent-color
+  margin: 0px auto 50px
+  padding-left: 10px
+  padding-right: 10px
+
+.biglink
+  display: inline-block
+  font:
+    size: 7vw
+    weight: 300
+  color: fade_in($accent-color, 1)
+  font-family: 'Raleway', sans-serif
+  font-weight: 300
+
+  &:hover
+    color: fade_out($accent-color, .2)
