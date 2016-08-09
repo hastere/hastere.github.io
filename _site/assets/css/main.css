@@ -474,6 +474,7 @@ h3 {
   margin: 0 auto;
   align-content: center;
   font-size: 18px;
+  color: black;
   font-weight: 400; }
   .about-me p {
     padding: 0;
@@ -517,8 +518,14 @@ h3 {
     display: table;
     clear: both; }
   .thumb-container .thumb-unit {
-    display: block;
-    width: 25%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 33.33333%;
     float: left;
     position: relative;
     padding-top: 20%;
@@ -526,7 +533,7 @@ h3 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: white;
+    background-background: white;
     -webkit-perspective: 300;
     -moz-perspective: 300;
     perspective: 300;
@@ -541,7 +548,7 @@ h3 {
       right: 0px;
       left: 0px;
       height: 100%;
-      background: #ddd4de;
+      background: rgba(181, 144, 162, 0.8);
       text-align: center;
       -webkit-transition: all 0.15s ease-out 0s;
       -moz-transition: all 0.15s ease-out 0s;
@@ -571,7 +578,6 @@ h3 {
       -o-justify-content: space-around;
       justify-content: space-around;
       -ms-flex-pack: center;
-      opacity: 0;
       -webkit-transform: rotateX(90deg);
       -moz-transform: rotateX(90deg);
       -ms-transform: rotateX(90deg);
@@ -586,8 +592,8 @@ h3 {
         display: block;
         padding: 40px;
         color: white;
-        font-weight: 500;
-        font-size: 20px; }
+        font-weight: 700;
+        font-size: 18px; }
     .thumb-container .thumb-unit:hover .thumb-overlay {
       top: 0;
       -webkit-transform: rotateX(0deg);
@@ -606,6 +612,10 @@ h3 {
   box-sizing: border-box;
   position: relative;
   display: none; }
+  @media screen and (max-width: 760px) {
+    .work-container {
+      width: 50%;
+      padding-top: 26%; } }
   .work-container .work-return {
     position: absolute;
     top: -4px;
@@ -619,9 +629,10 @@ h3 {
       opacity: 0.5; }
     .work-container .work-return path {
       fill: #b590a2; }
-  .work-container h4, .work-container noscript h4 {
-    color: #b590a2;
-    font-weight: 300;
+  .work-container .project-title {
+    height: 20px;
+    color: #B590A2;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 28px;
     line-height: 1.2;
@@ -685,9 +696,10 @@ h3 {
   max-width: 780px;
   height: 0px;
   border-top: 4px solid #B590A2;
-  margin: 0px auto 50px;
+  margin: 0px auto 0px;
   padding-left: 10px;
-  padding-right: 10px; }
+  padding-right: 10px;
+  padding-bottom: 20px; }
 
 .biglink {
   display: inline-block;
