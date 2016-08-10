@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfc16aba-c387-4175-bbdc-989b7951c041" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/README.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/css/main.css" afterPath="$PROJECT_DIR$/_site/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/js/functions.js" afterPath="$PROJECT_DIR$/_site/assets/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/work/extracurr/extracurr.html" afterPath="$PROJECT_DIR$/_site/assets/work/extracurr/extracurr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-modules/_header.sass" afterPath="$PROJECT_DIR$/assets/css/3-modules/_header.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-modules/_work.sass" afterPath="$PROJECT_DIR$/assets/css/3-modules/_work.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/functions.js" afterPath="$PROJECT_DIR$/assets/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/work/extracurr/extracurr.html" afterPath="$PROJECT_DIR$/assets/work/extracurr/extracurr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="another_one.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,8 +118,8 @@
       <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="455">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -190,10 +181,10 @@
         <option value="$PROJECT_DIR$/assets/work/programming/programming.html" />
         <option value="$PROJECT_DIR$/assets/work/french/french.html" />
         <option value="$PROJECT_DIR$/assets/work/photography/photography.html" />
-        <option value="$PROJECT_DIR$/assets/js/functions.js" />
         <option value="$PROJECT_DIR$/assets/css/3-modules/_work.sass" />
         <option value="$PROJECT_DIR$/assets/work/coffee/coffee.html" />
         <option value="$PROJECT_DIR$/assets/work/about/about.html" />
+        <option value="$PROJECT_DIR$/assets/js/functions.js" />
       </list>
     </option>
   </component>
@@ -660,12 +651,12 @@
       <workItem from="1470243385778" duration="12777000" />
       <workItem from="1470313369265" duration="52478000" />
       <workItem from="1470745331062" duration="15982000" />
-      <workItem from="1470831990956" duration="7051000" />
+      <workItem from="1470831990956" duration="7226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88288000" />
+    <option name="totallyTimeSpent" value="88463000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1039,8 +1030,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="455">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
           <folding />
         </state>
       </provider>

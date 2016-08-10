@@ -36,7 +36,7 @@ function workBelt() {
 }
 
 function workLoad() {
-    $.ajaxSetup({cache: true});
+    $.ajaxSetup({cache: false});
     $('.thumb-unit').click(function()   {
         var $this = $(this),
             newTitle = $this.find('string').text(),
