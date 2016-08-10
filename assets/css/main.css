@@ -546,7 +546,7 @@ h3 {
     @media screen and (max-width: 900px) {
       .thumb-container .thumb-unit {
         width: 50%;
-        padding-top: 6%; } }
+        padding-top: 26%; } }
     .thumb-container .thumb-unit .thumb-overlay {
       position: absolute;
       top: 50%;

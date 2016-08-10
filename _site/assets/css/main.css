@@ -546,7 +546,7 @@ h3 {
     @media screen and (max-width: 900px) {
       .thumb-container .thumb-unit {
         width: 50%;
-        padding-top: 6%; } }
+        padding-top: 26%; } }
     .thumb-container .thumb-unit .thumb-overlay {
       position: absolute;
       top: 50%;
@@ -756,3 +756,5 @@ form {
         padding-right: 10px; }
       form .contact-info label:nth-child(2) {
         padding-left: 10px; }
+
+/*# sourceMappingURL=main.css.map */
