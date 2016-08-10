@@ -20,19 +20,23 @@ function smoothScroll(duration) {
 }
 
 function workBelt() {
+    //TODO: This totally isnt how it is supposed to go.....
+
     $('.thumb-unit').click(function(){
         $('.work-belt').css('left', '-100%');
         $('.work-container').show('800ms');
+        $('.thumb-container').css('padding-right', '20px');
     });
     $('.work-return').click(function(){
+        $('.thumb-container').css('padding-right', '0px');
         $('.work-belt').css('left', '0%');
         $('.work-container').hide('800ms');
+
     });
 }
 
 function workLoad() {
     $.ajaxSetup({cache: true});
-
     $('.thumb-unit').click(function()   {
         var $this = $(this),
             newTitle = $this.find('string').text(),
