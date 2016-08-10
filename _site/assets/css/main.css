@@ -413,9 +413,9 @@ header {
       border: white solid 7px; }
   header .kicker {
     font-size: 15px; } }
-@media (max-width: 800px) {
+@media (max-width: 980px) {
   header {
-    background-size: 800px 352px;
+    background-size: 963px 352px;
     overflow: hidden;
     height: 352px; } }
 footer {
@@ -450,6 +450,10 @@ footer {
         footer .lockup .content-wrap a:hover {
           color: #B590A2; }
 
+@media (max-width: 980px) {
+  footer {
+    background-size: 963px 352px;
+    overflow: hidden; } }
 h3 {
   color: #b38d9f;
   text-align: center;
